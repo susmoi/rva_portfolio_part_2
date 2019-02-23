@@ -1,9 +1,9 @@
 body {
-  background-color: #262626;
+  background-color: #FFF;
 }
 
 h1 {
-  color: #fff;
+  color: #262626;
   padding: 40px;
   font-family: 'Candal';
   font-size: 55px;
@@ -20,18 +20,17 @@ a{
   align-content: center;
 }
 p {
-  padding: 40px;
-  color: #fff;
+  padding: 20px;
+  color: #262626;
   font-family: 'Cantarell';
   font-size: 20px
 }
 nav {
-  color: red;
-  font-size: 30px;
-  font-weight: 400;
-  font-family: 'Cantarell';
-  padding-left: 40px;
-  padding-top: 20px;
+  box-shadow: 3px 3px 6px 1px #DAE0E6;
+}
+
+nav > li {
+  flex: 1
 }
 
 img {
@@ -39,20 +38,24 @@ img {
   max-width: 70%;
   height: auto;
   margin: 40px;
+  box-shadow: 15px 15px 6px 1px #DAE0E6;
 }
 
-ul {
+.navcontainer {
+  display: flex;
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 200px;
   background-color: #f1f1f1;
   border-radius: 8px;
+
 }
 
 li a {
-  display: block;
+  display: inline-block;
   color: #000;
+  font-family: "Cantarell";
+  font-size: 20px;
   padding: 8px 16px;
   text-decoration: none;
 }
