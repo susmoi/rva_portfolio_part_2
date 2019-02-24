@@ -26,6 +26,26 @@ a{
 
 }
 
+.hero{
+  background-image: url("richmond_broad_sign.jpg");
+  background-color: #cccccc;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+img {
+  border-radius: 8px;
+  max-width: 70%;
+  height: auto;
+  margin: 40px;
+  box-shadow: 15px 15px 6px 1px #DAE0E6;
+}
+
+
+
 .skip:active,
 .skip:focus,
 .skip:hover {
@@ -35,8 +55,8 @@ a{
     height: auto;
     overflow: visible;
     padding: 10px;
-    margin-top: 80px;
-    margin-left: 400px;
+    margin-top: 75px;
+    margin-left: 700px;
     background-color: #983737;
 }
 
@@ -61,13 +81,7 @@ nav > li {
   flex: 1
 }
 
-img {
-  border-radius: 8px;
-  max-width: 70%;
-  height: auto;
-  margin: 40px;
-  box-shadow: 15px 15px 6px 1px #DAE0E6;
-}
+
 
 .navcontainer {
   display: flex;
